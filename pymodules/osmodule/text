@@ -1,0 +1,6 @@
+os module provides operation on files 
+for ex creating new files, editing existing files, renaming etc.
+
+most of the functions are basic cmd based functions 
+
+you can do many thing using os modules 

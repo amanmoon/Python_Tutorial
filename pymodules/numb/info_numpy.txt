@@ -1,0 +1,3 @@
+numpy is written in c 
+it provides a better data storage struture in python and is faster than python 
+various library use numpy for data handeling

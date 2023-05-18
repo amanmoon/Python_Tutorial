@@ -1,0 +1,32 @@
+algorithm is nothing but set or order in which you solve a perticular problem
+algorithm contains set of instruction
+
+types of algorithm: 1) Bruteforce algorithm 
+
+input=>algorithm=>finiteness=>output===========> this are the criteria of a algorithm
+
+steps to design an algorithm
+1) device an algo=>find best logic or tecnique to solve a algo
+2) validation=>to check output some test cases
+2) analysis of algorithm=>we analyse a algorithm in many contex such as stored data, timecomplexity etc
+
+time complexity=> sum of frequency counts of each instruction of a algorythm
+               => cpu computations 
+               for ex: sum=0                        => initialisation 1 frequency
+                            for(i=0;i<n;i++):       => i=0 initialisation 1 frequency,checkingi<n n frequency,i++ n frequency
+                                sum=sum+i           => computation n frequency
+                            return sum              => print 1 frequency
+                        total cpu frequency =3n+3
+                        timecomplexity is n 
+                        if cpu frequency = 4n^5+5
+                        timecomplexity(BIG'O Notation) =n^5 (this is the worst case senario)
+                        print("something")
+                        print("something MORE")
+                        print("something MORE MORE")
+                        this will have time complexity 3 but BIG'O(1)
+                        # always try to keep time complexity in range less than BIG'O(nlog(n)) 
+space complexity=> space required by variable
+                => space required by DS used
+                => space required by stack used in requersive algorithm
+                => the variable we define are stored in RAM so we should try to reduce required time complexity
+                

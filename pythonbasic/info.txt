@@ -1,0 +1,11 @@
+how to make a virtual environment
+commands in teminal
+to make a virtual environment ==> python -m venv <folder name>
+to activate the virtual environment ==> source <folder name>\Scripts\activate.bat or activate.ps1
+//now you can install different different versions of module and run them in this folder no global changes will occur
+to deactivate the virtual environment ==> deactivate
+
+if you create a new python file and import it and it has the function calling in the originl file then the function runs despite calling in the new file to solve this use
+if __name__="__main__"
+  <function()>
+  //by doing this the file will not run without calling

@@ -1,0 +1,12 @@
+pandas is a open source library that is used for data analysis
+you can use pandas to take or move data to excel file and use python ml algorithm on the data
+pandas has lot of data operations
+
+
+Pandas has two type of data structure
+1)Series: it is one dimentional array with indexes, it stores single column or row in a dataframe
+2)Dataframe: its a tabular spread sheet like structure representing rows each of which containing one or multiple column
+
+every column in pandas datastructure has a single datatype ie in pandas.py file the dict1 every column should have a single datatype
+
+a data frame is formed by the combination of Series
